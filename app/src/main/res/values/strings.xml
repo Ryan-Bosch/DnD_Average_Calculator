@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">D&amp;D Average Calculator</string>
+    <string name="ac">AC:</string>
+    <string name="d4">d4</string>
+    <string name="_0">0</string>
+    <string name="_15">15</string>
+    <string name="d6">d6</string>
+    <string name="d8">d8</string>
+    <string name="d12">d12</string>
+    <string name="d10">d10</string>
+    <string name="hit_mod">Hit Mod:</string>
+    <string name="_5">5</string>
+    <string name="crit">Crit:</string>
+    <string name="_20">20</string>
+    <string name="misfire">Misfire:</string>
+    <string name="damage_mod">Damage Mod:</string>
+    <string name="resistance">Resistance</string>
+    <string name="weakness">Weakness</string>
+    <string name="advantage">Advantage</string>
+    <string name="disadvantage">Disadvantage</string>
+    <string name="calc_att">Calculate</string>
+    <string name="none">None</string>
+    <string name="average_attack_damage">Average Attack Damage:</string>
+    <string name="useful_websites">Useful Websites</string>
+    <string name="new_attack">New Attack</string>
+    <string name="extent">Extent:</string>
+    <string name="_1">1.00</string>
+    <string name="save">Save</string>
+    <string name="edit_damage">EDIT DAMAGE</string>
+    <string name="add_damage">Add Damage</string>
+</resources>

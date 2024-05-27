@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DamageActivity">
+
+    <TextView
+        android:id="@+id/tvD4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/d4"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/tvD6"
+        app:layout_constraintEnd_toStartOf="@+id/ptD4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ptD4"
+        android:layout_width="39dp"
+        android:layout_height="38dp"
+        android:autofillHints="@string/_0"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/_0"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvD4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/tvD4"
+        app:layout_constraintTop_toTopOf="@+id/tvD4"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/tvD6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/d6"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/tvD8"
+        app:layout_constraintEnd_toEndOf="@+id/tvD4"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/tvD4"
+        app:layout_constraintTop_toBottomOf="@+id/tvD4" />
+
+    <EditText
+        android:id="@+id/ptD6"
+        android:layout_width="41dp"
+        android:layout_height="38dp"
+        android:autofillHints="@string/_0"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/_0"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvD6"
+        app:layout_constraintEnd_toEndOf="@+id/ptD4"
+        app:layout_constraintStart_toStartOf="@+id/ptD4"
+        app:layout_constraintTop_toTopOf="@+id/tvD6"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/tvD8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/d8"
+        android:textColor="#000000"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/tvD10"
+        app:layout_constraintEnd_toEndOf="@+id/tvD6"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/tvD6"
+        app:layout_constraintTop_toBottomOf="@+id/tvD6" />
+
+    <EditText
+        android:id="@+id/ptD8"
+        android:layout_width="40dp"
+        android:layout_height="38dp"
+        android:autofillHints="@string/_0"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/_0"
+        android:textSize="14sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/tvD8"
+        app:layout_constraintEnd_toEndOf="@+id/ptD6"
+        app:layout_constraintStart_toStartOf="@+id/ptD6"
+        app:layout_constraintTop_toTopOf="@+id/tvD8"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/tvD10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/d10"
+        android:textColor="#000000"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/tvD12"
+        app:layout_constraintEnd_toEndOf="@+id/tvD8"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/tvD8"
+        app:layout_constraintTop_toBottomOf="@+id/tvD8" />
+
+    <EditText
+        android:id="@+id/ptD10"
+        android:layout_width="38dp"
+        android:layout_height="37dp"
+        android:autofillHints="@string/_0"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/_0"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvD10"
+        app:layout_constraintEnd_toEndOf="@+id/ptD8"
+        app:layout_constraintStart_toStartOf="@+id/ptD8"
+        app:layout_constraintTop_toTopOf="@+id/tvD10"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/tvD12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/d12"
+        android:textColor="#000000"
+        android:visibility="visible"
+        app:layout_constraintBottom_toTopOf="@+id/tvDmgMod"
+        app:layout_constraintEnd_toEndOf="@+id/tvD10"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/tvD10"
+        app:layout_constraintTop_toBottomOf="@+id/tvD10" />
+
+    <EditText
+        android:id="@+id/ptD12"
+        android:layout_width="38dp"
+        android:layout_height="37dp"
+        android:autofillHints="@string/_0"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/_0"
+        android:textSize="14sp"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@+id/tvD12"
+        app:layout_constraintEnd_toEndOf="@+id/ptD10"
+        app:layout_constraintStart_toStartOf="@+id/ptD10"
+        app:layout_constraintTop_toTopOf="@+id/tvD12"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/tvDmgMod"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/damage_mod"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/tvExtent"
+        app:layout_constraintEnd_toEndOf="@+id/tvD12"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/tvD12"
+        app:layout_constraintTop_toBottomOf="@+id/tvD12" />
+
+    <EditText
+        android:id="@+id/ptDmgMod"
+        android:layout_width="44dp"
+        android:layout_height="42dp"
+        android:autofillHints="@string/_0"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/_0"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvDmgMod"
+        app:layout_constraintEnd_toEndOf="@+id/ptD12"
+        app:layout_constraintStart_toStartOf="@+id/ptD12"
+        app:layout_constraintTop_toTopOf="@+id/tvDmgMod"
+        tools:ignore="LabelFor" />
+
+    <TextView
+        android:id="@+id/tvExtent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/extent"
+        android:textColor="#000000"
+        app:layout_constraintBottom_toTopOf="@+id/btnCalculate"
+        app:layout_constraintEnd_toEndOf="@+id/tvDmgMod"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/tvDmgMod"
+        app:layout_constraintTop_toBottomOf="@+id/tvDmgMod" />
+
+    <EditText
+        android:id="@+id/ptExtent"
+        android:layout_width="42dp"
+        android:layout_height="46dp"
+        android:autofillHints=".5"
+        android:ems="10"
+        android:inputType="number"
+        android:text="@string/_1"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvExtent"
+        app:layout_constraintEnd_toEndOf="@+id/ptDmgMod"
+        app:layout_constraintStart_toStartOf="@+id/ptDmgMod"
+        app:layout_constraintTop_toTopOf="@+id/tvExtent"
+        tools:ignore="LabelFor" />
+
+    <Button
+        android:id="@+id/btnCalculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calc_att"
+        app:layout_constraintBottom_toTopOf="@+id/btnSave"
+        app:layout_constraintEnd_toEndOf="@+id/tvExtent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="@+id/tvExtent"
+        app:layout_constraintTop_toBottomOf="@+id/tvExtent" />
+
+    <Button
+        android:id="@+id/btnSave"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnSaveDmgClick"
+        android:text="@string/save"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnCalculate" />
+
+    <TextView
+        android:id="@+id/tvDamage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="@+id/btnCalculate"
+        app:layout_constraintEnd_toEndOf="@+id/ptExtent"
+        app:layout_constraintStart_toStartOf="@+id/ptExtent"
+        app:layout_constraintTop_toTopOf="@+id/btnCalculate" />
+</androidx.constraintlayout.widget.ConstraintLayout>
